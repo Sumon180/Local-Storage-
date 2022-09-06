@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="task_input">
+            <i class="fa-sharp fa-solid fa-pen"></i>
+            <input type="text" placeholder="Add a new task">
+        </div>
+
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">All</span>
+                <span id="pending">Pending</span>
+                <span id="complited">Complited</span>
+            </div>
+            <button class="clear_btn">Clear All</button>
+        </div>
+
+        <ul class="task_box"></ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
